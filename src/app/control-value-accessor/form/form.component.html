@@ -1,0 +1,7 @@
+<div [formGroup]="form">
+    <app-control-value-accessor [label]="'label1'" formControlName = "name"></app-control-value-accessor>
+</div>
+
+<pre>
+    {{form.value | json}}
+</pre>
